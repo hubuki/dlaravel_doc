@@ -89,3 +89,8 @@ $ npm run dev 或是 gulp 或是其他
 
 ***
 
+## 注意事項
+* 其他 tutorial 裡面的 `composer XXXX` 會對映成 `dc XXXX`，`php artisan XXXX` 會對映成 `da XXXX`。
+
+* 若 container 因為重開機或任何不明因素關掉了 (`docker ps` 底下沒有東西)，請到 `~/Sites/dlaravel/` 底下下 `./console custom` 開啟 container。
+
